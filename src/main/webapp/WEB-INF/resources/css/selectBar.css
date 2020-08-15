@@ -1,0 +1,29 @@
+.select-bar {
+    border: 2px solid #0099ff;
+    border-radius: 10px;
+    background-color: #9993;
+    margin: 5px auto;
+    display: flex;
+    overflow: hidden;
+    padding: 0px;
+}
+.select-bar span {
+    border-right: 1px solid #0099ff;
+    flex: 1;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px;
+}
+.select-bar span:last-child {
+    border-right: none;
+}
+.select-bar span.selected {
+    background-color: #9995;
+}
+.select-bar span:hover {
+    background-color: #9998;
+}
+.select-bar span::selection  {
+    color: inherit;
+    background-color: transparent;
+}

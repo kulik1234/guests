@@ -1,0 +1,40 @@
+.guest-container {
+    border: 3px solid #0099ff;
+    border-radius: 10px;
+    background-color: #9993;
+    padding: 10px 20px;
+    
+}
+.bright{
+    background-color: #0001;
+}
+.dark{
+    background-color: #00000020;
+}
+.will .pointer-dot{
+    background-color: #00FF00;
+}
+.wont .pointer-dot{
+    background-color: red;
+}
+.undecided .pointer-dot{
+    background-color: 	grey;
+}
+.guest-item {
+    padding: 5px;
+    margin: 10px 0px;
+    border-radius: 10px;
+}
+.guest-item:hover {
+    filter:drop-shadow(0px 0px 10px black);
+    cursor: pointer;
+}
+.pointer-dot {
+    display: inline-block;
+    height: 7.5px;
+    width: 7.5px;
+    background-color: black;
+    vertical-align: middle;
+    margin: 5px;
+    border-radius: 7.5px;
+}

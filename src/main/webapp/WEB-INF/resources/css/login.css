@@ -1,0 +1,91 @@
+.small-device-br {
+    display: none;
+}
+#loginContainer {
+    text-align: center;
+    padding: 20px;
+    overflow: auto;
+}
+h3 {
+    margin: 0px;
+}
+#loginContainer {
+    background-color:  	#99ccff;
+}
+.x {
+    display: none;
+}
+    .x .click {
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        color: grey;
+        border: 2px solid;
+        margin: 3px;
+        line-height: 26px;
+        background-color: #eee5;
+        border-radius: 10px;
+    }
+/* Mobiles */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Tablets */
+@media only screen and (max-width: 991px ) {
+    #loginContainer form > div {
+        margin: 10px;
+    }
+    .x {
+        display: flex;
+        
+    }
+
+    .small-device-br {
+        display: block;
+    }
+    div.form > div {
+        margin: auto;
+    }
+        header  div.burger-container {
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        cursor: pointer;
+    }
+    header > .col-s-2:first-child {
+        padding: 0px;
+    }
+}
+@media only screen and (min-width: 600px ) {
+        .burger-container {
+        display: none;
+    }
+    #loginContainer {
+        display: flex;
+        flex-direction: column;
+    }
+    #smallLoginContainer {
+        border: 3px solid #0099ff;
+        border-radius: 10px;
+        padding: 30px;
+        width: auto;
+        margin: auto;
+        background-color: #9993;
+    }
+    #smallLoginContainer .big-space {
+        display: none;
+    }
+}
+@media only screen and (min-width: 600px ) and (max-width: 991px) {
+    #form  div{
+       padding: 7px;
+    }
+}
+
+/* Desktops */
+@media only screen and (min-width: 992px) {
+
+}

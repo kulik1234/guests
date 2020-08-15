@@ -1,0 +1,62 @@
+#addGuestModule {
+    height: 100vh;
+    
+    width: 100%;
+    max-width: 100vw;
+    z-index: 20;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+}
+.wrong #smallLoginContainer {
+    color: red;
+    border: 3px solid;
+}
+.good #smallLoginContainer {
+    color: green;
+    border: 3px solid;
+}
+.message {
+    color: inherit;  
+}
+#loginContainer {
+    height: 100%;
+    background-color: #99ccff88;
+    display: flex;
+    flex-direction: column;
+}
+label,.x-a {
+    color: black;
+}
+#smallLoginContainer {
+    padding: 10px;
+    background-color: #0099ff;
+    border: 3px solid grey;
+    max-width: 100vw;
+}
+.x {
+    display: flex;
+}
+#loginContainer {
+   padding: 0px;
+}
+.x {
+    transform: translateX(5px) translateY(-5px);
+}
+@media only screen and (max-width: 600px) {
+    .wrong #smallLoginContainer {
+    color: red;
+}
+    .good #smallLoginContainer {
+    color: green;
+}
+
+#smallLoginContainer {   
+    border: none;
+    color: grey;
+    border: 3px solid currentColor;
+    border-radius: 10px;
+    
+}
+}
